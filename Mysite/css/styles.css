@@ -1,0 +1,151 @@
+body{
+    font-family: "sans-serif";
+}
+
+h1{
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.navbar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+   
+}
+#skills img{
+    height: 100px;
+    width: 100px;
+}
+
+#skills{
+    text-align: center;
+   padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+}
+
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+.phone{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+}
+}
+#about{
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 13%;
+    margin: 20px 20px 50px;
+}
+.container-fluid{
+ padding: 3% 15% 5%;   
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.icon{
+  font-size: 40px;
+  color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+}
+.icon:hover{
+    color: red;
+}
+.desc{
+    font-family: sans-serif;
+    font-weight:lighter;
+    padding: 0 12%;
+}
+.feature-box{
+    text-align: center;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+a{
+    color: rgb(72, 154, 181);
+    text-decoration: none;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.membership{
+padding: 2%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+#contact{
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding: 7% 15%;
+}
+#contact h3{
+    font-size: 2rem;
+}
+#footer{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 20px 0;
+}
+.social-icons{
+    margin: 20px 8px;
+}
+.mt{
+    margin-top: 50px;
+}
