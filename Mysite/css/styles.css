@@ -1,5 +1,6 @@
 body{
     font-family: "sans-serif";
+    user-select: none;
 }
 
 h1{
@@ -42,16 +43,6 @@ h3{
    position: relative;
 }
 
-@media(max-width:1028px){
-    #title{
-        text-align: center;
-    }
-.phone{
-    position: static;
-    transform: rotate(0);
-    width: 60%;
-}
-}
 #about{
     text-align: center;
     background-color: #ff4c68;
@@ -148,4 +139,8 @@ padding: 2%;
 }
 .mt{
     margin-top: 50px;
+}
+span a{
+    color: blue;
+    font-size: 1.3rem;
 }
